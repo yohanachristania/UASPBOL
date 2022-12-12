@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="312.0" prefWidth="481.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uaspbol_2020130057.FXML_InputRuteController">
+   <children>
+      <Button fx:id="btnkeluar" layoutX="353.0" layoutY="249.0" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+      <Button fx:id="btnbatal" layoutX="204.0" layoutY="249.0" mnemonicParsing="false" onAction="#batalklik" text="Batal" />
+      <Button fx:id="btnsimpan" layoutX="51.0" layoutY="249.0" mnemonicParsing="false" onAction="#simpanklik" text="Simpan" />
+      <TextField fx:id="txtkotaasal" layoutX="203.0" layoutY="91.0" />
+      <TextField fx:id="txtkotatujuan" layoutX="203.0" layoutY="141.0" />
+      <TextField fx:id="txtkoderute" layoutX="203.0" layoutY="42.0" />
+      <Label layoutX="51.0" layoutY="97.0" text="Kota Asal" />
+      <Label layoutX="51.0" layoutY="147.0" text="Kota Tujuan" />
+      <Label layoutX="51.0" layoutY="48.0" text="Kode Rute" />
+      <Label layoutX="52.0" layoutY="192.0" text="Durasi Perjalanan" />
+      <TextField fx:id="txtdurasi" layoutX="204.0" layoutY="186.0" />
+   </children>
+</AnchorPane>

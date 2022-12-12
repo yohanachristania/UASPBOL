@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="200" prefWidth="239.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="uaspbol_2020130057.FXMLDocumentController">
+   <children>
+      <MenuBar layoutY="-1.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Master">
+            <items>
+              <MenuItem fx:id="masterpesawat" mnemonicParsing="false" onAction="#masterpesawatklik" text="Pesawat" />
+                  <MenuItem fx:id="masterrute" mnemonicParsing="false" onAction="#masterruteklik" text="Rute" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Transaksi">
+              <items>
+                <MenuItem fx:id="transaksipenjadwalan" mnemonicParsing="false" onAction="#transaksipenjadwalanklik" text="Penjadwalan" />
+              </items>
+            </Menu>
+          <Menu mnemonicParsing="false" text="Display">
+            <items>
+              <MenuItem fx:id="displaypesawat" mnemonicParsing="false" onAction="#displaypesawatklik" text="Pesawat" />
+                  <MenuItem fx:id="displayrute" mnemonicParsing="false" onAction="#displayruteklik" text="Rute" />
+                  <MenuItem fx:id="displaypenjadwalan" mnemonicParsing="false" onAction="#displaypenjadwalanklik" text="Penjadwalan" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Keluar">
+            <items>
+              <MenuItem fx:id="keluar" mnemonicParsing="false" onAction="#keluarklik" text="Keluar" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
